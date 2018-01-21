@@ -1,0 +1,25 @@
+{
+  "name": "com.system.notification.plugin",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "com.system.notification.plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cadi-wilfredo/systemNotification.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cadi-wilfredo/systemNotification/issues"
+  },
+  "homepage": "https://github.com/cadi-wilfredo/systemNotification#readme"
+}
