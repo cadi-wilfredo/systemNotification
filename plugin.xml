@@ -10,7 +10,7 @@
         <lib-file src="android-support-v4.jar" />
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="systemNotification">
-                <param name="android-package" value="com.system.notification.plugin.systemNotification" />
+                <param name="android-package" value="com.system.notification.systemNotification" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>

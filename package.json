@@ -1,9 +1,9 @@
 {
-  "name": "com.system.notification.plugin",
+  "name": "systemNotification",
   "version": "0.0.1",
   "description": "",
   "cordova": {
-    "id": "com.system.notification.plugin",
+    "id": "systemNotification",
     "platforms": [
       "android"
     ]
