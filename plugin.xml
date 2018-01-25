@@ -1,20 +1,20 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="systemNotification" version="0.0.1" 
+<plugin id="systemnotification" version="0.0.1" 
     xmlns="http://apache.org/cordova/ns/plugins/1.0" 
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>systemNotification</name>
-    <js-module name="systemNotification" src="www/systemNotification.js">
-        <clobbers target="cordova.plugins.systemNotification" />
+    <name>systemnotification</name>
+    <js-module name="systemnotification" src="www/systemnotification.js">
+        <clobbers target="cordova.plugins.systemnotification" />
     </js-module>
     <platform name="android">
         <lib-file src="android-support-v4.jar" />
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="systemNotification">
-                <param name="android-package" value="com.system.notification.systemNotification" />
+            <feature name="systemnotification">
+                <param name="android-package" value="com.system.notification.systemnotification" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/systemNotification.java" target-dir="src/com/system/notification/plugin/systemNotification" />
+        <source-file src="src/android/systemnotification.java" target-dir="src/com/system/notification/plugin/systemnotification" />
     </platform>
 </plugin>
